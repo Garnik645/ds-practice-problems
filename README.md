@@ -10,6 +10,6 @@ This repository contains a collection of practice problems for learning data str
 - Pointers and references
 - Class basics
 
-### Class 2 – Template Functions & Classes [link](templates.md)
+### Class 2 – Template Functions & Classes [\[link\]](templates.md)
 - Function templates
 - Class templates
