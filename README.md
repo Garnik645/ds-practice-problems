@@ -6,7 +6,6 @@ This repository contains a collection of practice problems for learning data str
 
 ### Class 1 – C++ Revision
 - Memory types
-- Stack vs Heap
 - Object lifetime
 - Pointers and references
 - Class basics
