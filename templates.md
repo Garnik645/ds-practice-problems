@@ -19,7 +19,7 @@ T myMax(const T& a, const T& b) {
 
 int main() {
     std::cout << myMax<int>(3, 7) << '\n';          // 7
-    std::cout << myMax<float>(3.5, 2.1) << '\n';    // 3.5
+    std::cout << myMax<double>(3.5, 2.1) << '\n';   // 3.5
     return 0;
 }
 ```
