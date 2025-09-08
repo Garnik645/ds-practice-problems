@@ -11,3 +11,8 @@
 - **Функции-шаблоны**
 - **Классы-шаблоны**
 - **Специализация шаблонов**
+
+### Занятие 3 — Шаблоны с переменным числом аргументов [\[Задачи→\]](variadic_templates.md)
+* **Variadic templates**
+* **Universal references**
+* **Perfect forwarding**
