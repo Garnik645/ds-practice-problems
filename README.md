@@ -16,3 +16,4 @@
 * **Variadic templates**
 * **Universal references**
 * **Perfect forwarding**
+* **Return type deduction**
