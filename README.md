@@ -17,3 +17,7 @@
 * **Universal references**
 * **Perfect forwarding**
 * **Return type deduction**
+
+### Занятие 4 — Контейнер фиксированной длины [\[Задачи→\]](array.md)
+* **Приведения типов в C++**
+* **Контейнер std::array**
