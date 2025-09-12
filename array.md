@@ -83,7 +83,7 @@ fillArray(arr, 42);
 **Пример использования:**
 ```cpp
 std::array<int, 6> arr = {1, 2, 3, 4, 5, 6};
-int count = countEven(arr);
+int count = countEven<6>(arr);
 // результат: 3
 ```
 
@@ -101,7 +101,7 @@ int count = countEven(arr);
 **Пример использования:**
 ```cpp
 std::array<int, 5> arr = {1, 2, 3, 4, 5};
-reverseArray(arr);
+reverseArray<int, 5>(arr);
 // arr теперь содержит: {5, 4, 3, 2, 1}
 ```
 
@@ -157,7 +157,7 @@ std::cout << matrix[1][2];
 **Пример использования:**
 ```cpp
 std::array<int, 5> arr = {1, 2, 3, 4, 5};
-shiftLeft(arr, 2);
+shiftLeft<int, 5>(arr, 2);
 // arr теперь содержит: {3, 4, 5, 1, 2}
 ```
 
