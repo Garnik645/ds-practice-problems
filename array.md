@@ -194,7 +194,7 @@ int main() {
 **Пример использования:**
 ```cpp
 std::array<int, 4> scores = {85, 92, 78, 96};
-bool valid = validateArray(scores, 0, 100);
+bool valid = validateArray<int, 4>(scores, 0, 100);
 // результат: true
 ```
 
@@ -207,6 +207,6 @@ bool valid = validateArray(scores, 0, 100);
 **Пример использования:**
 ```cpp
 std::array<char, 5> text = {'h', 'e', 'l', 'l', 'o'};
-auto freq = countFrequency(text);
+auto freq = countFrequency<5>(text);
 // freq['h'] = 1, freq['e'] = 1, freq['l'] = 2, freq['o'] = 1
 ```
