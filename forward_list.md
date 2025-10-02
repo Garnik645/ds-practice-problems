@@ -81,7 +81,7 @@ insertAfterPosition(fl, 1, 99);
 Напишите функцию `removeAllOccurrences`, которая:
 - Принимает `std::forward_list<int>` по ссылке и значение для удаления.
 - Удаляет все вхождения заданного значения из списка.
-- Использует метод `erase_after`.
+- Использует метод `erase_after()`.
 - Возвращает количество удалённых элементов.
 
 **Пример использования:**
@@ -150,8 +150,8 @@ int removed = removeIf(fl, isOdd);
 ```cpp
 Polynomial p;
 p.addTerm(2, 3.0);  // 3x²
-p.addTerm(1, -2.0); // -2x
 p.addTerm(0, 5.0);  // +5
+p.addTerm(1, -2.0); // -2x
 p.print(); // "3x² - 2x + 5"
 double result = p.evaluate(2.0); // 3*4 - 2*2 + 5 = 13
 Polynomial dp = p.derivative(); // 6x - 2
