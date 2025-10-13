@@ -38,7 +38,7 @@ std::cout << "Size: " << dq.getSize() << '\n';      // 0
 
 **Пример использования:**
 ```cpp
-CircularDeque<int> dq(3);
+CircularDeque<int> dq;
 dq.push_back(20);
 dq.push_back(30);
 dq.push_front(10);
@@ -57,7 +57,7 @@ std::cout << "Size: " << dq.getSize() << '\n';  // 3
 
 **Пример использования:**
 ```cpp
-CircularDeque<int> dq(5);
+CircularDeque<int> dq;
 dq.push_back(1);
 dq.push_back(2);
 dq.push_front(0);
@@ -78,7 +78,7 @@ std::cout << "Size: " << dq.getSize() << '\n'; // 2
 
 **Пример использования:**
 ```cpp
-CircularDeque<int> dq(5);
+CircularDeque<int> dq;
 dq.push_back(10);
 dq.push_back(20);
 dq.push_back(30);
