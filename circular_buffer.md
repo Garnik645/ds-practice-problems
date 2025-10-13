@@ -23,7 +23,7 @@
 
 **Пример использования:**
 ```cpp
-CircularDeque<int> dq(5);
+CircularDeque<int> dq;
 std::cout << "Is empty: " << dq.isEmpty() << '\n';  // true
 std::cout << "Size: " << dq.getSize() << '\n';      // 0
 ```
