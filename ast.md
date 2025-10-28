@@ -4,6 +4,7 @@
 
 Система должна преобразовывать строку (например, `"multiply(add(x, 5.5), negate(max(y, 10, 4)))"`) в **Абстрактное синтаксическое дерево (AST)**, а затем вычислять результат, рекурсивно обойдя это дерево.
 
+Пример дерева для `"multiply(add(7, 3), subtract(5, 2)))"`:
 <table><tr><td>
 <img src="./media/ast.png" alt="ast" title="ast" style="display: inline-block; margin: 0 auto; max-width: 320px; max-height: 200px">
 </td></tr></table>
