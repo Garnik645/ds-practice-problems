@@ -86,8 +86,8 @@ try {
     // -> -96.0
     std::cout << "Result: " << result << std::endl;
     
-    // 3. Очистка памяти (не забудьте реализовать)
-    delete ast; // Должно рекурсивно удалить все дочерние узлы
+    // 3. Очистка памяти
+    clear(ast); // Должен рекурсивно удалить все дочерние узлы
 
 } catch (const std::exception& e) {
     std::cerr << "Error: " << e.what() << std::endl;
